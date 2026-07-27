@@ -1,7 +1,30 @@
 aid: iprint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iprint.png
 name: Iprint
-description: Iprint is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  iPrint.com was an early online print shop, launched in 1996 out of Larkspur,
+  California, that let consumers and small businesses design and order
+  customizable printed products (business cards, stationery, invitations,
+  promotional items) over the web. Backed by Canaan Partners, the company went
+  public on the NASDAQ under the symbol IPRT in March 2000, merged with
+  promotional-products firm Wood Associates in 2001, was delisted in 2002, and
+  its assets were ultimately acquired by Harland Clarke in 2009. The iprint.com
+  domain today hosts a live consumer print e-commerce storefront operated out of
+  Richmond Hill, Ontario, offering business cards, marketing materials, signs,
+  banners, stickers, and design services. The company exposes no public
+  developer program, API, SDK, or documentation surface; this profile is
+  identity-only and carries no API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/iprint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,34 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: >-
+  Original iPrint.com (NASDAQ IPRT) delisted 2002; merged with Wood Associates
+  2001; assets acquired by Harland Clarke 2009. iprint.com domain now hosts an
+  active consumer print storefront (Richmond Hill, Ontario). No developer/API
+  surface as of 2026-07-19.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Printing
+- E-Commerce
+- Online Printing
+- Business Cards
+- Marketing Materials
+- Retail
+common:
+- type: Website
+  url: https://www.iprint.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
