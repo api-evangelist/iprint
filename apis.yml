@@ -38,7 +38,7 @@ x-status-detail: >-
   2001; assets acquired by Harland Clarke 2009. iprint.com domain now hosts an
   active consumer print storefront (Richmond Hill, Ontario). No developer/API
   surface as of 2026-07-19.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
